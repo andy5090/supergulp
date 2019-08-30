@@ -5,5 +5,15 @@
   "main": "index.js",
   "repository": "https://github.com/andy5090/supergulp",
   "author": "Andy Lee <andy5090@naver.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5"
+  }
 }
